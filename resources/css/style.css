@@ -10,6 +10,7 @@ html {
     font-size: 14px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-y: scroll;
 }
 
 .unselectable {
@@ -24,6 +25,7 @@ html {
 
 .nav-item {
     margin: 0 15%;
+    background-color: #fff;
 }
 
 .nav-link {
@@ -43,7 +45,7 @@ html {
 main {
     height: 100%;
     background-color: #ebebeb;
-    margin: 2%;
+    margin: 3%;
 }
 
 .text-c {
@@ -71,4 +73,8 @@ main {
 
 .about-text {
     padding: 4%;
+}
+
+.projects-item {
+    padding: 3%;
 }
