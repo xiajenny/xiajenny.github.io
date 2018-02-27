@@ -1,3 +1,74 @@
 *{
+    padding: 0;
+    margin: 0;
     font-family: 'Roboto Mono', monospace;
+}
+
+html {
+    background-color: #fff;
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.nav-item {
+    margin: 0 15%;
+}
+
+.nav-link {
+    color: #3c3c3c;
+    transition: 0.2s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: coral;
+}
+
+.header {
+    padding: 2% 20%;
+}
+
+main {
+    height: 100%;
+    background-color: #ebebeb;
+    margin: 2%;
+}
+
+.text-c {
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+
+.text-l {
+    text-align: left;
+}
+
+.main-img {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding-bottom: 2%;
+    display:block;
+}
+
+.about {
+    text-align: center;
+}
+
+.about-text {
+    padding: 4%;
 }
