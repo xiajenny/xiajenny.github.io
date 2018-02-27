@@ -37,24 +37,24 @@
     <main class="unselectable">
         <div class="row about">
             <div class="col-xs-12 col-md-4 projects-item">
-                <a data-toggle="modal" href="#jennyxiacom">
+                <a class="projects-text" data-toggle="modal" href="#jennyxiacom">
                     jennyxia.com
                     <br><br>
                     <p class="text-l">This simple website was designed to showcase some of my selected work. Mockups designed on Adobe Illustrator. Made using HTML/CSS and Bootstrap 4. The illustration on the home page was 3D modelled using Rhinocerous3D and exported to Adobe Illustrator for lineweighting and colouring.</p></a>
             </div>
             <div class="col-xs-12 col-md-4 projects-item">
-                <p>
+                <a class="projects-text" data-toggle="modal" href="#grandmother">
                     Grandmother's house
-                    <br><p class="text-l">From April 2017 to August 2017, I travelled to China to document my family's ancestral homes in rural Hubei and Hunan. My goal was to make a family history, interview and spend time with my grandparents, and paint and photograph the scenes of the countryside. I spent the 8 months beforehand preparing by learning how to read and write Chinese, and read as much as I could on Chinese fiction, history, and philosophy.
-                </p>
+                    <br><br><p class="text-l">From April 2017 to August 2017, I travelled to China to document my family's ancestral homes in rural Hubei and Hunan. My goal was to make a family history, interview and spend time with my grandparents, and paint and photograph the scenes of the countryside. I spent the 8 months beforehand preparing by learning how to read and write Chinese, and read as much as I could on Chinese fiction, history, and philosophy.
+                </a>
                 </p>
 
             </div>
             <div class="col-xs-12 col-md-4 projects-item">
-                <p>
+                <a class="projects-text" data-toggle="modal" href="#sketchbook">
                     Sketchbook
-                    <br><p class="text-l">Since 2010, I've made it a habit to always carry a sketchbook with me wherever I go, to capture places I've been, things I've seen, the people I'm around, errant thoughts, anything and everything. I typically use pen and watercolours, with some occasional pencil and marker.
-                </p>
+                    <br><br><p class="text-l">Since 2010, I've made it a habit to always carry a sketchbook with me wherever I go, to capture places I've been, things I've seen, the people I'm around, errant thoughts, anything and everything. I typically use pen and watercolours, with some occasional pencil and marker.
+                </a>
                 </p>
             </div>
         </div>
@@ -132,9 +132,6 @@
         </div>
     </main>
 
-<!-- Trigger the modal with a button -->
-<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
-
 <!-- Modal -->
 <div id="jennyxiacom" class="modal fade" role="dialog">
   <div class="modal-dialog">
@@ -142,15 +139,56 @@
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title">jennyxia.com</h4>
+        <p class="modal-title">jennyxia.com</p>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <p></p>
+          <img class="img-responsive" src="resources/img/jennyxia.svg" alt="Jenny Xia">
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="grandmother" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title">grandmother's house</p>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
+      <div class="modal-body">
+        <p></p>
+          <img class="img-responsive projects-img" src="resources/img/china/village1jennyxia.jpg" alt="Huangshi Xishui 黄石浠水乡下景画 by Jenny Xia">
+          <img class="img-responsive projects-img"  src="resources/img/china/yard1jennyxia.jpg" alt="Huangshi Xishui 黄石浠水乡下景画 by Jenny Xia">
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="sketchbook" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title">sketchbook</p>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p></p>
+          <img class="img-responsive projects-img" src="resources/img/sketchbook/ResizedPhotos.0/tokyo1jennyxia.jpg" alt="Shibuya Crossing, Tokyo sketch by Jenny Xia">
+          <img class="img-responsive projects-img"  src="resources/img/sketchbook/ResizedPhotos.0/kyoto1jennyxia.jpg" alt="Arashiyama Bamboo Forest, Kyoto Japan sketch by Jenny Xia">
+          <img class="img-responsive projects-img"  src="resources/img/sketchbook/ResizedPhotos.0/kyoto2jennyxia.jpg" alt="Kyoto, Japan sketch by Jenny Xia">
+          <img class="img-responsive projects-img"  src="resources/img/sketchbook/ResizedPhotos.0/mongolia1jennyxia.jpg" alt="Inner Mongolia 内蒙 sketch by Jenny Xia">
+      </div>
+
     </div>
 
   </div>

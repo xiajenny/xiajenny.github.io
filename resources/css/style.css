@@ -45,7 +45,7 @@ html {
 main {
     height: 100%;
     background-color: #ebebeb;
-    margin: 3%;
+    margin: 0 3% 3% 3%;
 }
 
 .text-c {
@@ -59,13 +59,21 @@ main {
 }
 
 .main-img {
-    max-width: 1200px;
+    max-width: 900px;
     width: 100%;
     height: auto;
     margin: 0px auto;
     padding-bottom: 2%;
     display:block;
     
+}
+
+.projects-img{
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    padding-bottom: 2%;
+    display:block;
 }
 
 .about {
@@ -80,8 +88,23 @@ main {
     padding: 3%;
 }
 
+.projects-text {
+    color: #3c3c3c;
+    transition: 0.2s;
+}
+
+.projects-text:hover,
+.projects-text:active{
+    color: black;
+}
+
 .modal {
     overflow-y: auto;
+}
+
+
+.modal-backdrop {
+    background-color: aliceblue;
 }
 
 .modal-open {
@@ -90,4 +113,15 @@ main {
 
 .modal-open[style] {
     padding-right: 0px !important;
+}
+
+.modal-content{
+    background-color: fff;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px; 
+}
+
+.modal-header {
+    border: 0;
 }
