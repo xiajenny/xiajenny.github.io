@@ -79,3 +79,15 @@ main {
 .projects-item {
     padding: 3%;
 }
+
+.modal {
+    overflow-y: auto;
+}
+
+.modal-open {
+    overflow: auto;
+}
+
+.modal-open[style] {
+    padding-right: 0px !important;
+}
