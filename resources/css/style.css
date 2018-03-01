@@ -44,8 +44,15 @@ html {
 
 main {
     height: 100%;
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 3% 3% 3%;
+}
+
+.main-grey {
     background-color: #ebebeb;
-    margin: 0 3% 3% 3%;
+
+    padding: 3% 3% 3% 3%;
 }
 
 .text-c {
