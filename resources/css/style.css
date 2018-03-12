@@ -108,6 +108,24 @@ main {
     color: black;
 }
 
+.projects-dev {
+    border-top: 2px;
+    border-color: cornflowerblue;
+    border-top-style: dotted;
+}
+
+.projects-design {
+    border-top: 2px;
+    border-color: #bd59d4;
+    border-top-style: dotted;
+}
+
+.projects-art {
+    border-top: 2px;
+    border-color: #ff8b9d;
+    border-top-style: dotted;
+}
+
 .modal {
     overflow-y: auto;
 }
